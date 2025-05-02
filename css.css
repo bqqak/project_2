@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding-bottom: 105px
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+.h-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 70px;
+}
+.h-left span{
+    
+    font-family: kanit;
+    font-size: 18px;
+}
+.h-right{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-right: 75px;
+}
+.h-right a{
+    color: black;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    text-decoration: none; /*  Убрать линии под текстом */
+}
+.h-right #highlight_circle{
+    border: 1px solid #081E341F;
+    background-color: #081E341F;
+    padding: 10px;
+    border-radius: 100px;   
+}
+
+.main-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+}
+.all-text{
+    margin-left: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  /* теперь дети не растягиваются по ширине */
+    gap: 48px;
+}
+.the-main-text{
+    font-family: kanit;
+    font-weight: 700px;
+    font-size: 54px;
+    line-height: 64px;
+    max-width: 495px;
+}
+.the-add-text{
+    max-width: 495px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+.the-main-button{
+    
+    display: inline-block;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    border: 1px solid #712FFF;
+    background-color: #712FFF;
+    color: white;
+    border-radius: 100px;
+    padding: 0.75rem 1.5rem; 
+    font-size: 14px;
+    text-decoration: none;
+}
+.all-images{
+    position: relative;
+    max-width: 700px;
+    margin-right: 7%;
+    margin-bottom: 10%;
+}
+.m-img1{
+    display: block;
+    width: 100%;                  /* тянется на всю ширину .all-images без padding */
+    height: auto;
+    border-radius: 32px;
+}
+.m-img2{
+    display: block;
+    position: absolute;       /* Using absolute position in order to use top left */
+    bottom: 20px;
+    right: 3rem;
+    width: 24%;
+    height: auto;
+    transform: rotate(20deg);   /* Using function transform for rotate */
+}
+.m-img3{
+    display: block;
+    position: absolute; /* Using absolute position in order to use top left */
+    top: 1rem;
+    left: 30%;
+    width: 24%;
+    height: auto;   
+}
+
+.main-second{
+    background-color: #E1DEE7;
+}
+.main-second-text{
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    line-height: 56px;
+    align-items: center;
+}
+.main-second-text h1{
+    font-family: kanit;
+    font-size: 54px;
+}
+.main-second-text p{
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+}
+.main-2{
+    padding: 4rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-2 img{
+    width: 15%;
+}
+.first-part, .second-part, .third-part{
+    line-height: 300%;
+}
+.first-part h2, .second-part h2, .third-part h2{
+    margin-top: 11%;
+}
+.get-started-s{
+    background-color: #545d651f;
+}
+.get-started{
+    
+    padding-top: 7%;
+    padding-left: 7%;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding-right: 50%;
+}
+.get-started h1{
+    font-family: kanit;
+    font-size: 54px;
+}
+.get-started p{
+    font-family:Inter;
+    font-size: 16px;
+}
+.search-button{
+    
+}
