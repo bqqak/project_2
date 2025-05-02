@@ -115,6 +115,7 @@ header{
     background-color: #E1DEE7;
 }
 .main-second-text{
+    padding-top: 4%;
     padding-bottom: 2%;
     display: flex;
     flex-direction: column;
@@ -147,6 +148,7 @@ header{
 }
 .get-started-s{
     background-color: #545d651f;
+    padding-bottom: 100px;
 }
 .get-started{
     
@@ -166,5 +168,82 @@ header{
     font-size: 16px;
 }
 .search-button{
+    padding-right: 60%;
+    padding-top: 1%;
+    padding-left: 7%;
+   
+}
+.get-continue{
+    padding-top: 10%;
+    display: flex;
+
+}
+.get-continue img{
+    width: 45%;
+    border-radius: 45px;
+    margin-right: 180px;
     
+}
+.continue-text{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.continue-text h1{
+    font-family: kanit;
+    font-size: 54px;
+}
+.continue-text p{
+    font-size: 16px;
+    font-family: Inter;
+}
+
+.button-image{
+    display: flex;
+  
+}
+.button-image button{
+    position: relative;
+    padding: 10 24px;
+    padding-left: 40px;
+    border-radius: 100px;
+    background-color: #712FFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    min-width: 120px;
+    min-height: 50px;
+}
+.button-image .icon {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+.button-image .icon img {
+    width: 16px;
+    height: 16px;
+  }
+
+.h-left{
+    display: flex;
+    gap: 50px;
+    text-decoration: none;
+    padding-left: 5%;
+}
+.h-left img{
+    width: 35px;
+}
+.h-left a{
+    text-decoration: none;
+    color: black;
+}
+.end{
+    color: rgb(221, 93, 115);
+    display: flex;
+    justify-content: right;
+    padding-right: 5%;
 }
