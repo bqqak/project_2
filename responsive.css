@@ -1,0 +1,151 @@
+@media (max-width: 428px){ 
+   
+    header{
+        padding-bottom: 50px;
+    }
+    .container a{
+        display: none;
+    }
+   
+    #highlight_circle{
+        display: flex;
+    }
+    .main-1{
+        display: flex;
+        flex-direction: column-reverse;
+       padding-bottom: 10%;
+    }
+    .all-images{
+        padding-left: 10%;
+    }
+    .m-img3{
+        left: 42%;
+        bottom: 30px;
+        max-width: 80px;
+    }
+    .m-img2{
+        right: 0.5rem;
+    }
+    .all-text{
+        margin: 0;
+        align-items: center;
+        gap: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .the-main-text{
+        font-size: 32px;
+        line-height: 120%;
+        text-align: center;
+        
+    }
+    .the-add-text{
+        font-size: 14px;
+        line-height: 18px;
+       text-align: center;
+    }
+    .main-second-text{
+        padding-top: 40px;
+        gap: 25px;
+        line-height: 10px;
+        
+    }
+    .main-second-text h1{
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+    .main-2{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 30px;
+    }
+    .first-part, .second-part, .third-part{
+        line-height: 180%;
+        padding-bottom: 40px;
+    }
+    .first-part h2, .second-part h2, .third-part h2{
+        font-size: 20px;
+    }
+    .first-part p, .second-part p, .third-part p{
+        font-size: 14px;
+    }
+    .get-started{
+        padding: 0;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 50px;
+    }
+    .get-started h1{
+        text-align: center;
+        font-size: 24px;
+    }
+    .get-started p{
+        text-align: center;
+        font-size: 14px;
+    }
+    .search-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .search-input{
+        width: auto;
+    }
+    .search-wrapper img{
+        width: 30px;
+        left: 100px;
+    }
+    .search-input::placeholder{
+        font-size: 13px;
+    }
+    .get-continue{
+        display: flex;
+        flex-direction: column;
+    }
+    .man-picture{
+        width: auto;margin: 0;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .light-picture{
+        max-width: 47px;
+        max-height: 78px;
+        left: 80px;
+    }
+    .star-picture{
+        max-width: 53px;
+        max-height: 51px;
+        left: 180px;
+    }
+    .continue-text{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .continue-text h1{
+        font-size: 24px;
+    }
+    .continue-text p{
+        font-size: 14px;
+    }
+    .end-left{
+        display: flex;
+        flex-direction: column;
+    }
+    .end-left img{
+        max-width: 40px;
+    }
+    .end-right{
+        padding: 0;
+    }
+    .end{
+        display: flex;
+        padding: 0;
+        padding-top: 30px;
+        padding-left: 20px;
+        justify-content: left;
+    }
+}
+

@@ -98,17 +98,17 @@ header{
     position: absolute;       /* Using absolute position in order to use top left */
     bottom: 20px;
     right: 3rem;
-    width: 24%;
-    height: auto;
+    max-width: 24%;
+    max-height: auto;
     transform: rotate(20deg);   /* Using function transform for rotate */
 }
 .m-img3{
     display: block;
     position: absolute; /* Using absolute position in order to use top left */
     top: 1rem;
-    left: 30%;
-    width: 24%;
-    height: auto;   
+    left: 35%;
+    max-width: 24%;
+    max-height: auto;   
 }
 
 .main-second{
@@ -156,8 +156,10 @@ header{
     padding-left: 7%;
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 40px;
     padding-right: 50%;
+    
+    
 }
 .get-started h1{
     font-family: kanit;
@@ -178,16 +180,17 @@ header{
     display: flex;
 
 }
-.get-continue img{
+.man-picture{
     width: 45%;
     border-radius: 45px;
     margin-right: 180px;
-    
+    margin-left: 4%;
 }
 .continue-text{
     display: flex;
     flex-direction: column;
     gap: 25px;
+    padding-top: 10%;
 }
 .continue-text h1{
     font-family: kanit;
@@ -228,22 +231,92 @@ header{
     height: 16px;
   }
 
-.h-left{
+
+
+
+.light-picture{
+    width: 87px; 
+    height: 180px; 
+    position: absolute;  
+    left:5%; 
+    transform: translateY(100%);
+}
+.star-picture{
+    width: 97px; height: 94px; position: absolute; left: 20%; transform: translateY(30%);
+}
+
+.search-wrapper {
     display: flex;
-    gap: 50px;
-    text-decoration: none;
+    gap: 12px;
+    padding: 2rem 8rem;
+  }
+  
+  .search-input {
+    width: 650px; 
+    padding: 0.75rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-size: 14px;
+    outline: none;
+    font-family: Inter, sans-serif;
+  }
+  
+  .search-button {
+    background-color: #712FFF;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    padding: 0.5rem 1rem;  
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    cursor: pointer;
+    white-space: nowrap;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .search-input::placeholder{
+    opacity: 0.5;
+  }
+  .search-wrapper img{
+    position: absolute;
+    width: 1.5%;
+    margin-top: 8px;
+    margin-left: 10px;
+    opacity: 0.2;
+  }
+  footer{
+    padding-top: 50px; padding-bottom: 20px;
+  }
+  .button-property{
+    border-radius: 100px; background-color: #712FFF; color: white;
+  }
+  .magnifier-image{
+    width: 18px; height: 22px;
+  }
+  .end-left{
+    display: flex;
+    font-size: 15px;
+    gap: 32px;
     padding-left: 5%;
-}
-.h-left img{
-    width: 35px;
-}
-.h-left a{
-    text-decoration: none;
-    color: black;
-}
-.end{
+  }
+  .end-left img{
+    max-width: 1.5%;
+  }
+  .end{
+    padding-top: 2%;
     color: rgb(221, 93, 115);
     display: flex;
     justify-content: right;
     padding-right: 5%;
+}
+
+.end-left a{
+    text-decoration: none;
+    color: black;
+}
+.end-right{
+    padding-left: 20%;
+    color: gray;
 }

@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JumysTap</title>
     <link rel="stylesheet" href="css.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2? family=Inter:ital,wght@0,100..900;1,100..900& family=Kanit:ital,wght@0,100..900;1,100..900& display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="responsive.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Kanit' rel='stylesheet'>
+
 
 
 </head>
@@ -15,8 +16,8 @@
     <header>
         <div class="container">
             <div class="h-left">
-                <img src="images/magnifier.png" style="width: 18.68px; height: 22px;">
-                <span>JumysTap</span>
+                <img src="images/magnifier.png" class="magnifier-image">
+                <span class="JumysTap"><b>JumysTap</b></span>
             </div>
             <nav class="h-right">
                 <a href="#">Home</a>
@@ -73,20 +74,24 @@
                 the best companies - just share your CV to get started.
             </p>
         </div>
-        <div class="search-button">
-            <input type="text" style="width: auto;">
-        </div>
+        <div class="search-wrapper">
+            <img src="images/search.png">
+            <input type="text" class="search-input" placeholder="       Search for job by keywords">
+            <button class="search-button">Find Job</button>
+          </div>
+          
+          
         <div class="get-continue">
-            <img src="images/man.png" style="margin-left: 4%;">
-            <img src="images/lightning.png" style="width: 87px; height: 144px; position: absolute;  left:5%; transform: translateY(100%);">
-            <img src="images/star.png" style="width: 97px; height: 94px; position: absolute; left: 20%; transform: translateY(30%);">
+            <img src="images/man.png" class="man-picture">
+            <img src="images/lightning.png" class="light-picture">
+            <img src="images/star.png" class="star-picture">
         
             <div class="continue-text">
                 <h1>Upload your CV</h1>
                 <p>The best tool to start your career journey with. Get connected <br> 
                 with the best companies - just share your CV to get started.</p>
                 <div class="button-image">
-                    <button style="border-radius: 100px; background-color: #712FFF; color: white;">
+                    <button class="button-property">
                         <span class="icon">
                             <img src="images/array.png"/>
                         </span>
@@ -98,15 +103,19 @@
     </section>
     </main>
     
-    <footer style="padding-top: 50px; padding-bottom: 20px;">
+    <footer>
         <div>
-            <nav class="h-left">
+            <nav class="end-left">
                 <a href="#">Home</a>
                 <a href="#">Abous us</a>
                 <a href="#">How it works</a>
                 <img src="images/bird.png"/>
                 <img src="images/instagram.png"/>
+                <div class="end-right">
+                    <p>Credits: photos from <u>Unsplash.com</u>, icons from <u>Icons8</u>, graphics from <u>craftwork.design</u>, font Kanit from <u>fonts.google.</u></p>
+                </div>
             </nav>
+            
         </div>
         <div class="end">
             <p>Made with love at nFactorial</p>
